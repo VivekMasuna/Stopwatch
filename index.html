@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="timer">
+            <span class="hours">00 </span>:
+            <span class="min"> 00 </span>:
+            <span class="sec"> 00 </span>.
+            <span class="ms"> 000</span>
+        </h1>
+
+        <ol class="lapBox"></ol>
+
+        <div class="bottomPart">
+            <div class="btns">
+                <button type="button" class="reset">Reset</button>
+                <button type="button" class="toggle">Start</button>
+                <button type="button" class="lap">Lap</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
